@@ -14,8 +14,13 @@ http://localhost:8080/fetchCountryById?id=Africa
 # Fetch the country based on COuntry name
 http://localhost:8080/fetchCountryFlagByName?id=Ethiopia
 
-Attached screen shot from all the above api and DB.
+# Attached screen shot from all the above api and DB
 
+![Continent](images/Continent.PNG)
+![CountryTable](images/CountryTable.PNG)
+![SearchByContinent](images/SearchByContinent.PNG)
+![SearchByCountry](images/SearchByCountry.PNG)
+![fetchAllCountry](images/fetchAllCountry.PNG)
 
 # DB Insert Query to replicate the data based on input Json file:
 insert into CONTINENT (CONTINENT_ID,CONTINENT_NAME ) values (1, 'Africa');
